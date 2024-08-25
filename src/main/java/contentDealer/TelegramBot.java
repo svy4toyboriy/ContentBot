@@ -29,7 +29,7 @@ public class TelegramBot extends TelegramLongPollingBot {
     @Override
     public String getBotToken() {
         // TODO
-        return "6754183310:AAGoPbkWc1nZkyHHUM8bjJ_V0_60nigu9IA";
+        return "TOKEN";
     }
 
     private static final int RESULTS_AMOUNT = 5;

@@ -58,7 +58,7 @@ public class TelegramBot extends TelegramLongPollingBot {
     @Override
     public void onUpdateReceived(Update update) {
         if (update.hasMessage() && update.getMessage().hasText()) {
-            Database.insertQuery(update);
+            //Database.insertQuery(update);
             CHAT_ID = update.getMessage().getChatId();
             String mess = update.getMessage().getText();
             if (mess.equals("/start")) {
@@ -132,9 +132,10 @@ public class TelegramBot extends TelegramLongPollingBot {
             String fileName = YouTube.contentTitle[buttonNumber].replaceAll("[^\\da-zA-Zа-яёА-ЯЁ]", "");
             String songUrl = YouTube.contentUrl[buttonNumber];
 
-            Database.insertButton(update, buttonNumber + 1, YouTube.contentTitle[buttonNumber], CHAT_ID);
+            //Database.insertButton(update, buttonNumber + 1, YouTube.contentTitle[buttonNumber], CHAT_ID);
 
             String audioPath = "/content/home/resources/Audio/downloads/" + fileName + "." + format;
+
             File file = new File(audioPath);
             if (!file.exists()) {
                 try {

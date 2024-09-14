@@ -10,7 +10,7 @@ public class Console {
         if (format.equals("m4a")) options = " \"bestaudio[filesize<50M][ext=m4a]\" "; else
             options = " \"bestvideo[filesize<40M][ext=mp4]+bestaudio[filesize<10M][ext=m4a]\" ";
 
-        String command = "yt-dlp" +
+        String command = "yt-dlp" + " --cookies /cookies/cookies.txt" +
                 " -f" + options + "-P /content/home/resources/" +
                 "Audio/downloads/ -o " + fileName + "." + format + " " + songUrl;
 

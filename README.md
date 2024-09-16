@@ -1,4 +1,4 @@
-![Screenshot_1](https://github.com/user-attachments/assets/e67cda10-cd3f-4637-9845-5d8414ec2248)![Screenshot_1](https://github.com/user-attachments/assets/e67cda10-cd3f-4637-9845-5d8414ec2248)# ContentBot
+# ContentBot
 
 ## Апгрейднутая версия musicDealer, поддерживающая отправку mp4-файлов и работающая с БД.
 

@@ -1,4 +1,4 @@
-# ContentBot
+![Screenshot_1](https://github.com/user-attachments/assets/e67cda10-cd3f-4637-9845-5d8414ec2248)![Screenshot_1](https://github.com/user-attachments/assets/e67cda10-cd3f-4637-9845-5d8414ec2248)# ContentBot
 
 ## Апгрейднутая версия musicDealer, поддерживающая отправку mp4-файлов и работающая с БД.
 
@@ -31,8 +31,31 @@
 
 **Примеры работы:**
 
-![Screenshot_4](https://github.com/user-attachments/assets/91f72202-ae49-4f9d-af46-50ca77f42934)
-![Screenshot_4](https://github.com/user-attachments/assets/91f72202-ae49-4f9d-af46-50ca77f42934)
+![Screenshot_1](https://github.com/user-attachments/assets/0878b30c-bca2-4a1e-8aa7-67453a629b03)
+
+![Screenshot_2](https://github.com/user-attachments/assets/9a5602cd-a161-43e5-b6db-160eba470b88)
+
+![Screenshot_3](https://github.com/user-attachments/assets/1935816e-9e6e-4a84-aa02-69abb3fec628)
+
+![Screenshot_4](https://github.com/user-attachments/assets/cf546eb4-08c7-4556-bd88-c19395aae48c)
+
+![Screenshot_5](https://github.com/user-attachments/assets/adb207be-272a-413b-8005-89bbb04a32a2)
+
+![Screenshot_6](https://github.com/user-attachments/assets/9ee32637-3812-44fa-a314-3061fa2bc01e)
+
+![Screenshot_7](https://github.com/user-attachments/assets/2107076c-6b0d-40a1-823b-2731a6dd8e96)
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 

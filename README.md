@@ -31,4 +31,10 @@
 
 **Примеры работы:**
 
+![Screenshot_4](https://github.com/user-attachments/assets/91f72202-ae49-4f9d-af46-50ca77f42934)
+![Screenshot_4](https://github.com/user-attachments/assets/91f72202-ae49-4f9d-af46-50ca77f42934)
+
+
+
+
 

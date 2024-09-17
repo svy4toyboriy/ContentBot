@@ -132,8 +132,6 @@ public class TelegramBot extends TelegramLongPollingBot {
             String fileName = YouTube.contentTitle[buttonNumber].replaceAll("[^\\da-zA-Zа-яёА-ЯЁ]", "");
             String songUrl = YouTube.contentUrl[buttonNumber];
 
-            Database.insertButton(update, buttonNumber + 1, YouTube.contentTitle[buttonNumber], CHAT_ID);
-
             String audioPath = "/content/home/resources/Audio/downloads/" + fileName + "." + format;
 
             File file = new File(audioPath);
@@ -147,9 +145,11 @@ public class TelegramBot extends TelegramLongPollingBot {
 
             if (!file.exists()) {
                 send(phrases[language][7]);
+                Database.insertButton(update, buttonNumber + 1, YouTube.contentTitle[buttonNumber], CHAT_ID, false);
                 return;
             }
 
+            Database.insertButton(update, buttonNumber + 1, YouTube.contentTitle[buttonNumber], CHAT_ID, true);
             send(phrases[language][3]);
 
             InputFile inputFile = new InputFile(file, audioPath);

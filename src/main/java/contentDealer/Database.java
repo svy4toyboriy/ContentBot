@@ -32,17 +32,17 @@ public class Database {
         String query = update.getMessage().getText();
         String type;
         if (update.getMessage().getText().startsWith("/")) type = "Start"; else type = "Query";
-        String sqlCommand = "INSERT INTO updates (chatid, type, output, date) " +
-                "VALUES ('" + chatId + "', '" + type + "', '" + query + "', '" + date + "');";
+        String sqlCommand = "INSERT INTO updates (chatid, type, output, date, status) " +
+                "VALUES ('" + chatId + "', '" + type + "', '" + query + "', '" + date + "', '" + true + "');";
         go(sqlCommand);
     }
 
-    public static void insertButton(Update update, int buttonNumber, String fileName, Long chatId) {
+    public static void insertButton(Update update, int buttonNumber, String fileName, Long chatId, Boolean status) {
 
         Date date = new Date();
         String type = "Button: " + buttonNumber;
         String sqlCommand = "INSERT INTO updates (chatid, type, output, date) " +
-                "VALUES ('" + chatId + "', '" + type + "', '" + fileName + "', '" + date + "');";
+                "VALUES ('" + chatId + "', '" + type + "', '" + fileName + "', '" + date + "', '" + status +"');";
         go(sqlCommand);
     }
 
